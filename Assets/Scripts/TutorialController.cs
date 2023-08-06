@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class ImpactTester : MonoBehaviour
+public class TutorialController: MonoBehaviour
 {
     [SerializeField] private TextMeshPro textBox;
     private void Start()
