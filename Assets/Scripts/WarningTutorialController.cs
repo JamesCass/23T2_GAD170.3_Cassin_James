@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class TutorialController: MonoBehaviour
+public class WarningTutorialController: MonoBehaviour
 {
     [SerializeField] private TextMeshPro textBox;
     private void Start()
