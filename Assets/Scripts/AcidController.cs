@@ -10,6 +10,7 @@ public class AcidController : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
+            //provide more player feedback
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
