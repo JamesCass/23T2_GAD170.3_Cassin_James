@@ -4,6 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    //ALL CODE & DOCUMENTATION COURTESY OF SAE LECTURERS
+
     // INSTRUCTIONS
     // This script must be on an object that has a Character Controller component.
     // It will add this component if the object does not already have it.

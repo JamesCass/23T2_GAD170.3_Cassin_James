@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AcidController : MonoBehaviour
+public class SpikesController : MonoBehaviour
 {
-    //Checks if the player has entered the acid collider and if so reloads the scene to 'respawn' the Player Character.
+    //Checks if player touches spikes and if so 'respawns' the player character.
     private void OnTriggerEnter(Collider col)
     {
-        //Checks to make sure the GameObject that collides with the acid has the tag "Player".
+        //Checks for the GameObject with the tag 'Player'
         if (col.CompareTag("Player"))
         {
-            //... reloads the scene
+            //... reloads scene after player character collides with spikes.
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
