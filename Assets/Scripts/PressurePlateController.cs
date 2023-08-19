@@ -27,7 +27,7 @@ public class PressurePlateController : MonoBehaviour
             //...makes sure the object contains the tag "Player"
             if (col.CompareTag("Player"))
                 //...instantiates spikes in desired position. 
-                instantiatedSpikes = Instantiate(spikesPrefab, spawnPoint.position, Quaternion.Euler(1, -90, -50));
+                instantiatedSpikes = Instantiate(spikesPrefab, spawnPoint.position, Quaternion.Euler(1, 90, -50));
             //...enables text and enables spikes check.
             spikesAreTriggered = true;
             textbox.enabled = true;

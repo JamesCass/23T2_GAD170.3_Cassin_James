@@ -41,6 +41,7 @@ public class ButtonController : MonoBehaviour
             //...spikes and pressure plate removed.
             Destroy(pressurePlate);
             DestroyInstantiatedSpikes();
+            textBox.enabled = false;
 
 
         }

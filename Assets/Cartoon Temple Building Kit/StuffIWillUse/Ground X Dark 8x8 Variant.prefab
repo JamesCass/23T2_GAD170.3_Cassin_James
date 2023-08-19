@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5844845010106579822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000013148629514, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_Name
+      value: Ground X Dark 8x8 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011719289922, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fcad28398c1238644b39b95aee534faa, type: 3}
+--- !u!1 &5845252373599179108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013148629514, guid: fcad28398c1238644b39b95aee534faa,
+    type: 3}
+  m_PrefabInstance: {fileID: 5844845010106579822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2015615748645837559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845252373599179108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16, y: 2.0000591, z: 16.000008}
+  m_Center: {x: 0, y: -0.9999996, z: 0.0000047683716}

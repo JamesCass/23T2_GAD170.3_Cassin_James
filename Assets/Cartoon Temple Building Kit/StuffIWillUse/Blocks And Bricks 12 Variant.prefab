@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3411044390936554967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000014121867710, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_Name
+      value: Blocks And Bricks 12 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013217920010, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e386dc0eac66ed9418b52d4e61d47f58, type: 3}
+--- !u!1 &3410908600873104489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000014121867710, guid: e386dc0eac66ed9418b52d4e61d47f58,
+    type: 3}
+  m_PrefabInstance: {fileID: 3411044390936554967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3378935139782567928
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3410908600873104489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.999998, y: 12.000005, z: 2.0000439}
+  m_Center: {x: 0.00000023841858, y: 5.9999995, z: -0.000021636486}

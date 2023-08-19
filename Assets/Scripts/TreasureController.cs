@@ -10,6 +10,7 @@ public class TreasureController : MonoBehaviour
     [SerializeField] private TextMeshPro winTextBox;
     [SerializeField] private bool isPlayerCharacterNextToTreasure = false;
     [SerializeField] private GameObject treasure;
+    [SerializeField] private ParticleSystem treasureParticles;
 
     //At the start ensures the text boxes are disabled as well as the check to make sure the player is close enough to the treasure.
     void Start()
@@ -37,11 +38,14 @@ public class TreasureController : MonoBehaviour
     //Checks if the player is pressing "E" and in the vicinty of the treasure and if so remove the treasure GameObject and enable the win text.
     private void Update()
     {
+        transform.Rotate(0f, 50f * Time.deltaTime, 0f, Space.Self);
         if (Input.GetKeyDown(KeyCode.E) && isPlayerCharacterNextToTreasure)
         {
             //... destroys the treasure GameObject and enables the win text box.
             Destroy(treasure);
+            Destroy(treasureParticles);
             winTextBox.enabled = true;
+            infoTextBox.enabled = false;
         }
         //Checks if the player presses "Escape" during gameplay and if so quits the game.
         if (Input.GetKeyDown(KeyCode.Escape))
